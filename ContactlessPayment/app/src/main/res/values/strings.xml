@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Contactless Payment</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hce_intro_message">
+            <![CDATA[
+
+
+            This is a demo for NFC Host Card Emulation applicaiton, currently set to emulate
+            loyalty cards, a request is sent to a web server for the account number which is returned and send to the reader.
+
+
+            ]]>
+    </string>
+    <string name="nfc_intro_message">
+            <![CDATA[
+
+
+            This is a demo for NFC emulating a Secure Element applicaiton, currently set to emulate
+            loyalty cards, the account number is retrieved from the memory within the device.
+
+
+            ]]>
+    </string>
+    <string name="reader_intro_message">
+        <![CDATA[
+
+
+            This is a demo NFC card reader, for reading cards that do not contain NDEF or Android
+            Beam data. This demo disables Android Beam, and selects which AIDs the reader is
+            interested in, and establish communication with the card.
+
+
+        ]]>
+    </string>
+    <string name="service_name">Host Card Emulation</string>
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+</resources>
